@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About</title>
+    </title>Master in Interdisciplinary Data Science(MIDS)@Duke University</title>
+  </head>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+    
+    <h1> About me</h1>
+    <p> Comics, Games, Food.</p>
+    <img src= "{{url_for('static', filename='background.jpeg') }}" width=600 height=400>
+
+      
+    {% endblock %}
+  </body>
+</html>
